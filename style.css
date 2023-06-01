@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: black; 
+}
+
+.div-principal{
+    width: 795px;
+    height: 689px;
+    border-radius: 40px;
+    padding: 24px 56px 24px 56px;
+    background:#ffffff ;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.div01{
+    width: 168px;
+    height: 20px;
+    background: #e5d8ea;
+    border-radius: 999px;
+    display: flex;
+    align-self: center;
+}
+
+.div02{
+    width: 683px;
+    height: 86px;
+    margin-top: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #372d3b;
+}
+
+.title span{
+    color: rgba(134, 66, 147, 1);    
+}
+
+.sub-title-card{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #372d3b;
+}
+
+.div03{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top: 99px;
+}
+
+.avaliacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /*o pai sempre ter que ter position relative*/
+}
+
+.avatar{
+    z-index: 1;
+}
+
+.rosto{
+    width: 137px;
+    height: 137px;
+    border-radius: 68.5px;
+}
+
+.pontuacao{
+    position: absolute;
+    width: 100px;
+    height: 31.37px;
+    background: #372d3b;
+    left: 19px;
+    top: 110px;
+    border-radius: 15.68px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*horizontal */
+    align-items: center; /*vertical*/
+}
+
+.excelente{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.6077px;
+    line-height: 24px;
+    color: #FBF8FC;
+}
+
+.estrela{
+    width: 15.69px;
+    height: 15.69px;
+    margin-right: 9.8px;
+    
+
+    
+}
+
+.carro{
+    position: absolute; /*Para ser usado o position absolute*/
+    left: 92px;
+    z-index: 0;
+    width: 286px;
+}
+
+.placas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.placa-01{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41.0955px;
+    line-height: 50px;
+    color: #372D3B;
+}
+
+.modelo-carro{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.6573px;
+    line-height: 30px;
+    color: #372D3B;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 99px;
+}
+
+.input-mensagem{
+    background: #f5edf7;
+    display: flex;
+    flex: 1; /*esticar ate o final*/
+    height: 64px;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    padding-left: 29px; 
+    border-width: 0;
+}
+
+.input-mensagem::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #372D3B;
+}
+
+.button-telefone{
+    margin-left: 32px;
+    margin-right: 40px;
+}
+
+.size-box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
